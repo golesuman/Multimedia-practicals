@@ -44,7 +44,8 @@ void print_codes(map<char, string> &codes)
 
 int main()
 {
-    string str = "hello world";
+    string str;
+    cin >> str;
     map<char, int> freq;
 
     for (char c : str)
